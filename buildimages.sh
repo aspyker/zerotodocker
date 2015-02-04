@@ -44,7 +44,12 @@ cd ..
 cd ..
 
 cd exhibitor-zookeeper
+cd 1.5.2
 docker build -t netflixoss/exhibitor:1.5.2 .
+cd ..
+cd 1.5.3
+docker build -t netflixoss/exhibitor:1.5.3 .
+cd ..
 cd ..
 
 cd zuul
